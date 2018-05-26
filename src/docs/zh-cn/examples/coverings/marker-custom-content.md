@@ -9,7 +9,7 @@
   <template>
     <div class="amap-page-container">
       <el-amap
-        vid="amapDemo"  
+        vid="amapDemo"
         :center="center"
         :zoom="zoom"
         class="amap-demo">
@@ -29,7 +29,7 @@
       data: function() {
         let self = this;
         const center = [121.59996, 31.197646];
-      
+
         return {
           zoom: 12,
           center,
@@ -69,7 +69,7 @@
   <template>
     <div class="amap-page-container">
       <el-amap
-        vid="amapDemo1"  
+        vid="amapDemo1"
         :center="center"
         :zoom="zoom"
         class="amap-demo">
@@ -136,7 +136,7 @@
   <template>
     <div class="amap-page-container">
       <el-amap
-        vid="amapDemo2"  
+        vid="amapDemo2"
         :center="center"
         :zoom="zoom"
         class="amap-demo">
@@ -226,7 +226,7 @@
   <template>
     <div class="amap-page-container">
       <el-amap
-        vid="amapDemo3"  
+        vid="amapDemo3"
         :center="center"
         :zoom="zoom"
         class="amap-demo">
@@ -251,7 +251,7 @@
       data: function() {
         let self = this;
         const center = [121.59996, 31.197646];
-      
+
         return {
           zoom: 12,
           center,
